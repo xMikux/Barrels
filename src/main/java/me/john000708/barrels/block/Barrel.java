@@ -187,8 +187,8 @@ public abstract class Barrel extends SimpleSlimefunItem<BlockTicker> {
 
         if ((stored - output.getAmount()) <= 0) {
             BlockStorage.addBlockInfo(b, "storedItems", null);
-            inventory.replaceExistingItem(4, new CustomItem(Material.BARRIER, "&7Empty"), false);
-            inventory.replaceExistingItem(22, new CustomItem(Material.BARRIER, "&7Empty"), false);
+            inventory.replaceExistingItem(4, new CustomItem(Material.BARRIER, "&7空"), false);
+            inventory.replaceExistingItem(22, new CustomItem(Material.BARRIER, "&7空"), false);
             return;
         }
 

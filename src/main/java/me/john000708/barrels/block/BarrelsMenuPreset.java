@@ -45,8 +45,8 @@ class BarrelsMenuPreset extends BlockMenuPreset {
         });
 
         if (BlockStorage.getLocationInfo(b.getLocation(), "storedItems") == null) {
-            menu.replaceExistingItem(4, new CustomItem(Material.BARRIER, "&7Empty"), false);
-            menu.replaceExistingItem(22, new CustomItem(Material.BARRIER, "&7Empty"), false);
+            menu.replaceExistingItem(4, new CustomItem(Material.BARRIER, "&7空"), false);
+            menu.replaceExistingItem(22, new CustomItem(Material.BARRIER, "&7空"), false);
         }
 
         if (Barrels.displayItem()) {
