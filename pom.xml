@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.john000708</groupId>
     <artifactId>Barrels</artifactId>
-    <version>1.0 Efina</version>
+    <version>1.1 Efina</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -48,7 +48,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.16.1-R0.1-SNAPSHOT</version>
+            <version>1.16.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         
@@ -72,7 +72,7 @@
         <dependency>
             <groupId>com.github.TheBusyBiscuit</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>RC-14</version>
+            <version>RC-18</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
